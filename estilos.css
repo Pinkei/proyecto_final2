@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(194, 201, 206);
+    background-color: rgb(99, 93, 93);
+    background-image: url(./img/fondo-body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.encabezado{
+    background-color: rgb(221, 55, 55);
+    background-image: url(./img/Iron-Man-titulo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+    height: 20vh;
+}
+
+.contenido_imagen{
+    width: 100%;
+    text-align: left;
+    padding: 2rem;
+}
+
+.contenido_imagen img{
+    width: 25%;
+    margin: 2rem;
+    box-shadow: 5px 5px rgb(132, 127, 160);
+    }
+
+    .section-menu{
+        margin: 2rem;
+    }
