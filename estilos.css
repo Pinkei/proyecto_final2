@@ -26,7 +26,6 @@ body{
 }
 
 .contenido_imagen{
-    text-align: left;
     padding: 2rem;
 }
 
@@ -42,10 +41,37 @@ body{
  /* ----------------------NO SE COMO CENTRAR EL TEXTO -------------------------- */
     .contenido_imagen div p{
         text-align: center;
-        inline-size: 150px;
+
     overflow-wrap: break-word;
-    hyphens: manual;
     
 }
     
+.texto_personajes{
+    line-height: normal; 
+    text-align: center;
+    font-weight: 800;
+    color: aliceblue;
+    padding: 5rem;
+    display: flex;
+    font-size: 1.3rem;
+    width: 550px;
     
+}
+
+.pie{
+padding: 3rem;
+}
+.arriba{
+    padding: 3rem;
+}
+
+.encabezado nav ul li a{
+    color: brown;
+}
+
+.pie a{
+    color: brown;
+}
+.arriba a{
+    color: brown;
+}
