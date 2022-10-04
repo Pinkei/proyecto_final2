@@ -8,7 +8,7 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(194, 201, 206);
-    background-color: rgb(99, 93, 93);
+    background-color: rgb(138, 65, 65);
     background-image: url(./img/fondo-body.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,9 +41,12 @@ body{
  /* ----------------------NO SE COMO CENTRAR EL TEXTO -------------------------- */
     .contenido_imagen div p{
         text-align: center;
-
     overflow-wrap: break-word;
-    
+}
+
+.section-2{
+padding: 30px;
+font-size: 1.5rem;
 }
     
 .texto_personajes{
@@ -59,7 +62,8 @@ body{
 }
 
 .pie{
-padding: 3rem;
+padding: 2px;
+margin-right: 50px;
 }
 .arriba{
     padding: 3rem;
@@ -75,3 +79,32 @@ padding: 3rem;
 .arriba a{
     color: brown;
 }
+
+input{
+background-color: black;
+    color: brown;
+    padding: 1.5rem;
+}
+
+
+
+/* ---------------------pantalla chicas-------------------------- */
+/* @media(min-width:552px){
+    body{
+        display: none;
+    }
+}
+
+/* -----------------tabletas ------------- */
+/* @media(min-width:768px){
+    body{
+        display: none;
+    }
+} */
+
+/* -----------escritorios normales----- */
+/* @media(min-width:992px){
+    body{
+        display: none;
+    }
+} */ 
